@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const app = express()
 app.use(express.json())
 
-const dbUrl = `mongodb+srv://adinayak18_db_user:wPNsxwh4RwxsKCOC@cluster0.9ljqiiq.mongodb.net/LMS?appName=Cluster0`
+const dbUrl = `mongodb+srv://<user_name>:<pws>@cluster0.9ljqiiq.mongodb.net/LMS?appName=Cluster0`
 
 mongoose
     .connect(dbUrl)
